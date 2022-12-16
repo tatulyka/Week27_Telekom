@@ -1,11 +1,15 @@
 import React from "react";
+import "./ItemComponent.сss";
+//import * as classnames from 'classnames';
 
 export default class Card extends React.Component {
     render() {
-        const {price, title, speed, description, selected} = this.props;
+        const {price, title, speed, description, isSelected} = this.props;   
+        let classCard = "";
+        if (isSelected) classCard = "selected";  
     
     return (
-    <div className="card_body">
+    <div className={`card_body ${classCard}`}>
         <div className="card-text">
             <h1 className="card-price">{price}€</h1>
             <div className="card-period">mesačne</div>

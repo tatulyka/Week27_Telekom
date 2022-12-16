@@ -1,0 +1,46 @@
+.container {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;    
+    margin: 50px auto;
+    flex: 1 1 auto;
+    font-family: TeleGrotesk,Helvetica,Arial,sans-serif;
+    }
+
+.card_body {
+        max-width: 200px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(238, 230, 230);
+        margin: 20px auto;
+        background: #f7f7f7;
+    background-image: linear-gradient(#f3f3f3,#fff);
+    padding: 20px 16px 16px;
+    border-radius: 10px;        
+        }
+
+.card-price {
+     color:#e10073;
+
+}
+.card-title {
+    font-size: 16px;
+}
+
+.card-period,  .card-description {
+    font-size: 11px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button {
+    background-color:#e10073;
+    color: #f7f7f7;
+    border:#e10073;
+    height: 35px;
+    width: 90%;
+    border-radius: 3px;
+}
+.selected {
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border: 1.5px solid #e10073;
+}

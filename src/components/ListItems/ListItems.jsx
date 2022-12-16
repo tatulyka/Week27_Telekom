@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../ItemComponent/ItemComponent";
-import * as classnames from 'classnames';
-import  "./ListItems.module.css";
+//import * as classnames from 'classnames';
+import "./ListItems.css";
 
 
 const arr = [{
@@ -13,17 +13,18 @@ const arr = [{
     price: "23.89",
     title: "OptikNET Extra",
     speed: "800/160",
-    description: "odosielania dát až 1000/500"},
+    description: "odosielania dát až 1000/200",
+    isSelected: true},
 {
     price: "17,89",
     title: "OptikNET Ideál",
     speed: "400/80",
-    description: "odosielania dát až 1000/500"},
+    description: "odosielania dát až 800/160"},
 {
     price: "12.89",
     title: "OptikNET Štart",
     speed: "50/20",
-    description: "odosielania dát až 1000/500"}];
+    description: "odosielania dát až 100/40"}];
 
 class listItems extends React.Component {
     render() { 
@@ -33,7 +34,7 @@ class listItems extends React.Component {
       {
        arr.map((card) => 
        <Card key={card.price} price={card.price} title ={card.title} speed ={card.speed} 
-       description = {card.description}></Card> ) 
+       description = {card.description} isSelected = {card.isSelected}></Card> ) 
       }
       
     </div>
