@@ -2,26 +2,20 @@
     "price": "28.90",
     "title": "OptikNET Max",
     "speed": "1000/300",
-   "description": "odosielania dát až 1000/500",
-   "id": 1},
-
+   "description": "odosielania dát až 1000/500"},
 {
     "price": "23.89",
     "title": "OptikNET Extra",
     "speed": "800/160",
     "description": "odosielania dát až 1000/200",
-    "isSelected": true,
-    "id": 2},
+    "isSelected": true},
 {
     "price": "17,89",
     "title": "OptikNET Ideál",
     "speed": "400/80",
-    "description": "odosielania dát až 800/160",
-     "id": 3},
+    "description": "odosielania dát až 800/160"},
 {
     "price": "12.89",
     "title": "OptikNET Štart",
     "speed": "50/20",
-    "description": "odosielania dát až 100/40",
-    "id": 4
-    }]
+    "description": "odosielania dát až 100/40"}]
